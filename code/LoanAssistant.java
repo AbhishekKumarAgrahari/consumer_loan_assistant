@@ -367,8 +367,8 @@ DecimalFormat("0.00").format((months - 1) * payment + finalPayment - balance));
  }
  public boolean validateDecimalNumber(JTextField tf){
  String s = tf.getText().trim();
- boolean hasDecimal = false
- boolean valid = true
+ boolean hasDecimal = false;
+ boolean valid = true;
  if(s.length() == 0){
  valid = false;
  }
